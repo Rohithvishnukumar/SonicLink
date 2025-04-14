@@ -148,7 +148,7 @@ Here is the user query: "{query}"
 
     try:
         client = genai.Client(
-            api_key="AIzaSyDv4W67qdw1E7_WsCEHkq0qPuOKTpm08Jc"
+            api_key=""
         )  
         response = client.models.generate_content(
             model="gemini-2.0-flash", contents=prompt
